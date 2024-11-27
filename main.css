@@ -2,3 +2,33 @@ body{
     background-color: black;
     color: aliceblue;
 }
+main {
+    background-color: burlywood;
+    width: 2000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+section{
+    display: grid;
+    grid-template-columns: 800px 240px;
+    gap: 20px;
+}
+
+section ol {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 120px 120px;
+    gap: 10px;
+
+
+}
+section ol li a image {
+    display: block; 
+    
+}
